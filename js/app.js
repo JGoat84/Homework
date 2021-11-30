@@ -26,27 +26,27 @@
 // console.log(y)
 
 // -------------------------------------------------
-//Task 3 I expanded the "Dogyears" scenario to cover people < 24 and 9 through a couple of additional IF statements
+// Task 3 I expanded the "Dogyears" scenario to cover people < 24 and 9 through a couple of additional IF statements
 // -------------------------------------------------
 
-// let humanage = 24;
+let humanage = 24;
 
-// let firstyear = 15;
-// let secondyear = 9;
+let firstyear = 15;
+let secondyear = 9;
 
-// // FOR PEOPLE < 15 YEARS OLD
-// if (humanage <= firstyear) {
-//     dogyears = humanage/firstyear
-// }
-// // FOR PEOPLE > 15 YEARS OLD BUT 24 AND UNDER
-// else if (humanage <= firstyear+secondyear && humanage >firstyear) {
-//     dogyears = (humanage - firstyear)/secondyear +1
-// }
-// // FOR PEOPLE OVER 24 YEARS OLD
-// else dogyears = (humanage-firstyear-secondyear)/5+2
+// FOR PEOPLE < 15 YEARS OLD
+if (humanage <= firstyear) {
+    dogyears = humanage/firstyear
+}
+// FOR PEOPLE > 15 YEARS OLD BUT 24 AND UNDER
+else if (humanage <= firstyear+secondyear && humanage >firstyear) {
+    dogyears = (humanage - firstyear)/secondyear +1
+}
+// FOR PEOPLE OVER 24 YEARS OLD
+else dogyears = (humanage-firstyear-secondyear)/5+2
 
-// // console.log(dogyears)
-// console.log("i am", humanage, "years old and", dogyears, "dogyears old")
+// console.log(dogyears)
+console.log("i am", humanage, "years old and", dogyears, "dogyears old")
 
 // -------------------------------------------------
 //Task 4 - IGOT STUCK ON THIS
